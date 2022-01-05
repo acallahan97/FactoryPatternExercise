@@ -6,5 +6,9 @@ namespace FactoryPatternExercise
 {
     interface IVehicle
     {
+        public void Drive()
+        {
+            Console.WriteLine("Sorry, can't text I'm driving");
+        }
     }
 }
